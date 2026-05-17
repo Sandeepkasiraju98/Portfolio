@@ -844,28 +844,47 @@ footer {
   <div class="sec-max">
     <div class="overline">Selected Work</div>
     <h2 class="sec-title">Key <em>Projects</em></h2>
+
     <div class="pj-grid">
+
+      <!-- AI CONTENT MODERATION -->
       <div class="pj">
-        <div class="pj-type">Healthcare Data · Platform Engineering</div>
-        <h3 class="pj-title">Healthcare Data Platform</h3>
-        <div class="pj-stack">Python · SQL · R · Flask · Docker · Spark · MongoDB · AWS EC2 · Power BI</div>
-        <div class="pj-org">End-to-End EHR Simulation &amp; Analytics</div>
-        <p class="pj-desc">Built and deployed a scalable EHR simulation platform with RESTful APIs, containerized ETL workflows, and Spark/Hadoop processing, delivering real-time Power BI dashboards with integrated R–Python analytics.</p>
+        <div class="pj-type">AI Safety · Multi-Modal Systems</div>
+        <h3 class="pj-title">AI Content Moderation System</h3>
+        <div class="pj-stack">
+          Python · PyTorch · CLIP · ResNet18 · XGBoost · LightGBM · HuggingFace · FastAPI · MLflow · Docker
+        </div>
+        <div class="pj-org">Production-Grade Content Safety Platform</div>
+        <p class="pj-desc">
+          Built a production-grade multi-modal content moderation system detecting harmful text, images, and behavioral patterns using NLP, Computer Vision, and an XGBoost + LightGBM ensemble risk scorer achieving 97% AUC.
+          Integrated an LLM triage agent (Mistral via Ollama) to reason through borderline cases with full audit logging, and deployed a live FastAPI service with drift monitoring, automated retraining, and a real-time dashboard.
+        </p>
       </div>
+
+      <!-- AIRBNB PIPELINE -->
       <div class="pj">
         <div class="pj-type">Analytics Engineering · Data Pipeline</div>
         <h3 class="pj-title">Airbnb Analytics Engineering Pipeline</h3>
         <div class="pj-stack">dbt · Snowflake · AWS S3 · Python</div>
         <div class="pj-org">Medallion Architecture Implementation</div>
-        <p class="pj-desc">Designed and implemented an end-to-end Airbnb data pipeline using dbt and Snowflake, applying medallion architecture (Bronze → Silver → Gold), incremental models, SCD Type 2 snapshots, and automated data quality tests.</p>
+        <p class="pj-desc">
+          Designed and implemented an end-to-end Airbnb data pipeline using dbt and Snowflake, applying medallion architecture (Bronze → Silver → Gold), incremental models, SCD Type 2 snapshots, and automated data quality tests.
+        </p>
       </div>
+
+      <!-- HEALTHCARE PLATFORM -->
       <div class="pj">
-        <div class="pj-type">Infrastructure · Serverless Automation</div>
-        <h3 class="pj-title">Automated Data Infrastructure Orchestration Platform</h3>
-        <div class="pj-stack">Terraform · Python · AWS Lambda · API Gateway · DynamoDB · Docker</div>
-        <div class="pj-org">Cloud-Native Analytics Infrastructure</div>
-        <p class="pj-desc">Developed a scalable serverless automation framework to provision analytics infrastructure, orchestrate deployments, standardize environments, accelerate pipeline setup, and ensure reproducibility across data projects using cloud-native services.</p>
+        <div class="pj-type">Healthcare Data · Platform Engineering</div>
+        <h3 class="pj-title">Healthcare Data Platform</h3>
+        <div class="pj-stack">
+          Python · SQL · R · Flask · Docker · Spark · MongoDB · AWS EC2 · Power BI
+        </div>
+        <div class="pj-org">End-to-End EHR Simulation & Analytics</div>
+        <p class="pj-desc">
+          Built and deployed a scalable EHR simulation platform with RESTful APIs, containerized ETL workflows, and Spark/Hadoop processing, delivering real-time Power BI dashboards with integrated R–Python analytics.
+        </p>
       </div>
+
     </div>
   </div>
 </section>
